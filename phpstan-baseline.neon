@@ -1,0 +1,1213 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 5
+			path: app/controllers/AnneeController.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 4
+			path: app/controllers/AnneeController.php
+
+		-
+			message: '#^Parameter \#1 \$errors of static method App\\Core\\Session\:\:setErrors\(\) expects array, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: app/controllers/AnneeController.php
+
+		-
+			message: '#^Parameter \#1 \$libelle of static method App\\Models\\AnneeAcademique\:\:libelleExiste\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: app/controllers/AnneeController.php
+
+		-
+			message: '#^Binary operation "\." between ''Bienvenue, '' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: app/controllers/AuthController.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 4
+			path: app/controllers/AuthController.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 5
+			path: app/controllers/AuthController.php
+
+		-
+			message: '#^Offset ''id'' might not exist on array\<string, mixed\>\|null\.$#'
+			identifier: offsetAccess.notFound
+			count: 3
+			path: app/controllers/AuthController.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 5
+			path: app/controllers/EcheanceController.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 4
+			path: app/controllers/EcheanceController.php
+
+		-
+			message: '#^Cannot call method fetchAll\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/controllers/EtudiantController.php
+
+		-
+			message: '#^Cannot cast mixed to float\.$#'
+			identifier: cast.double
+			count: 1
+			path: app/controllers/EtudiantController.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 8
+			path: app/controllers/EtudiantController.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 22
+			path: app/controllers/EtudiantController.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 3
+			path: app/controllers/FormationController.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 6
+			path: app/controllers/FormationController.php
+
+		-
+			message: '#^Parameter \#1 \$errors of static method App\\Core\\Session\:\:setErrors\(\) expects array, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: app/controllers/FormationController.php
+
+		-
+			message: '#^Parameter \#1 \$nom of static method App\\Models\\Formation\:\:nomExiste\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: app/controllers/FormationController.php
+
+		-
+			message: '#^Binary operation "\." between ''Inscription '' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: app/controllers/InscriptionController.php
+
+		-
+			message: '#^Cannot access offset \(int\|string\) on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 3
+			path: app/controllers/InscriptionController.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 10
+			path: app/controllers/InscriptionController.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 13
+			path: app/controllers/InscriptionController.php
+
+		-
+			message: '#^Offset ''inscription_id'' might not exist on array\{success\: true, message\: string, inscription_id\?\: int\}\.$#'
+			identifier: offsetAccess.notFound
+			count: 1
+			path: app/controllers/InscriptionController.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 1
+			path: app/controllers/JournalController.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 6
+			path: app/controllers/JournalController.php
+
+		-
+			message: '#^Binary operation "\." between ''Reçu '' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: app/controllers/PaiementController.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 13
+			path: app/controllers/PaiementController.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 8
+			path: app/controllers/PaiementController.php
+
+		-
+			message: '#^Offset ''paiement_id'' might not exist on array\{success\: true, message\: string, paiement_id\?\: int\}\.$#'
+			identifier: offsetAccess.notFound
+			count: 1
+			path: app/controllers/PaiementController.php
+
+		-
+			message: '#^Cannot access offset ''error'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/controllers/ParametreController.php
+
+		-
+			message: '#^Cannot access offset ''tmp_name'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/controllers/ParametreController.php
+
+		-
+			message: '#^Cannot call method fetchColumn\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/controllers/ParametreController.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 1
+			path: app/controllers/ParametreController.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 8
+			path: app/controllers/ParametreController.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 14
+			path: app/controllers/RapportController.php
+
+		-
+			message: '#^Binary operation "\." between ''Mot de passe…'' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: app/controllers/UtilisateurController.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 4
+			path: app/controllers/UtilisateurController.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 12
+			path: app/controllers/UtilisateurController.php
+
+		-
+			message: '#^Cannot access offset ''id'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 6
+			path: app/core/Auth.php
+
+		-
+			message: '#^Cannot access offset ''mot_de_passe'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: app/core/Auth.php
+
+		-
+			message: '#^Cannot access offset ''statut'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: app/core/Auth.php
+
+		-
+			message: '#^Cannot access offset ''tentatives_echecs'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/core/Auth.php
+
+		-
+			message: '#^Cannot access offset ''verrouille_jusqu_a'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/core/Auth.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 9
+			path: app/core/Auth.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 5
+			path: app/core/Auth.php
+
+		-
+			message: '#^Method App\\Core\\AuditServiceProxy\:\:log\(\) has parameter \$details with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/core/Auth.php
+
+		-
+			message: '#^Method App\\Core\\Auth\:\:role\(\) should return string\|null but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: app/core/Auth.php
+
+		-
+			message: '#^Method App\\Core\\Auth\:\:user\(\) should return array\<string, mixed\>\|null but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: app/core/Auth.php
+
+		-
+			message: '#^Parameter \#1 \$user of static method App\\Core\\Auth\:\:login\(\) expects array\<string, mixed\>, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/core/Auth.php
+
+		-
+			message: '#^Static property App\\Core\\Auth\:\:\$cachedUser \(array\<string, mixed\>\|null\) does not accept mixed\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: app/core/Auth.php
+
+		-
+			message: '#^Cannot access offset ''adresse'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/core/Config.php
+
+		-
+			message: '#^Cannot access offset ''email'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/core/Config.php
+
+		-
+			message: '#^Cannot access offset ''nom'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/core/Config.php
+
+		-
+			message: '#^Cannot access offset ''prefixe'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/core/Config.php
+
+		-
+			message: '#^Cannot access offset ''telephone'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/core/Config.php
+
+		-
+			message: '#^Cannot call method fetchAll\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/core/Config.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 1
+			path: app/core/Csrf.php
+
+		-
+			message: '#^Parameter \#1 \$token of static method App\\Core\\Csrf\:\:verify\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/core/Csrf.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 4
+			path: app/core/Database.php
+
+		-
+			message: '#^Parameter \#2 \.\.\.\$values of function sprintf expects bool\|float\|int\|string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: app/core/Database.php
+
+		-
+			message: '#^Parameter \#3 \.\.\.\$values of function sprintf expects bool\|float\|int\|string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: app/core/Database.php
+
+		-
+			message: '#^Parameter \#4 \.\.\.\$values of function sprintf expects bool\|float\|int\|string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: app/core/Database.php
+
+		-
+			message: '#^Parameter \#5 \.\.\.\$values of function sprintf expects bool\|float\|int\|string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: app/core/Database.php
+
+		-
+			message: '#^Strict comparison using \=\=\= between string and null will always evaluate to false\.$#'
+			identifier: identical.alwaysFalse
+			count: 1
+			path: app/core/Env.php
+
+		-
+			message: '#^Binary operation "\." between non\-falsy\-string and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: app/core/Money.php
+
+		-
+			message: '#^Cannot cast mixed to float\.$#'
+			identifier: cast.double
+			count: 1
+			path: app/core/Money.php
+
+		-
+			message: '#^Parameter \#1 \$string of function strtoupper expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/core/Router.php
+
+		-
+			message: '#^Cannot access an offset on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/core/Session.php
+
+		-
+			message: '#^Cannot access offset string on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/core/Session.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 2
+			path: app/core/Session.php
+
+		-
+			message: '#^Method App\\Core\\Session\:\:flashInput\(\) has parameter \$input with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/core/Session.php
+
+		-
+			message: '#^Method App\\Core\\Session\:\:pullErrors\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/core/Session.php
+
+		-
+			message: '#^Method App\\Core\\Session\:\:pullFlashes\(\) should return array\<int, array\{type\: string, message\: string\}\> but returns array\<mixed\>\.$#'
+			identifier: return.type
+			count: 1
+			path: app/core/Session.php
+
+		-
+			message: '#^Method App\\Core\\Session\:\:setErrors\(\) has parameter \$errors with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/core/Session.php
+
+		-
+			message: '#^Offset ''samesite'' on array\{lifetime\: int\<0, max\>, path\: non\-falsy\-string, domain\: string, secure\: bool, httponly\: bool, samesite\: ''Lax''\|''lax''\|''None''\|''none''\|''Strict''\|''strict''\} on left side of \?\? always exists and is not nullable\.$#'
+			identifier: nullCoalesce.offset
+			count: 1
+			path: app/core/Session.php
+
+		-
+			message: '#^Parameter \#1 \$name of function setcookie expects string, string\|false given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/core/Session.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 12
+			path: app/core/Validator.php
+
+		-
+			message: '#^Cannot cast mixed to float\.$#'
+			identifier: cast.double
+			count: 1
+			path: app/helpers/functions.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 3
+			path: app/helpers/functions.php
+
+		-
+			message: '#^Cannot call method fetch\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/models/AnneeAcademique.php
+
+		-
+			message: '#^Cannot call method fetchAll\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/models/AnneeAcademique.php
+
+		-
+			message: '#^Method App\\Models\\AnneeAcademique\:\:courante\(\) should return array\<string, mixed\>\|null but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: app/models/AnneeAcademique.php
+
+		-
+			message: '#^Method App\\Models\\AnneeAcademique\:\:create\(\) has parameter \$data with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/models/AnneeAcademique.php
+
+		-
+			message: '#^Method App\\Models\\AnneeAcademique\:\:find\(\) should return array\<string, mixed\>\|null but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: app/models/AnneeAcademique.php
+
+		-
+			message: '#^Method App\\Models\\AnneeAcademique\:\:update\(\) has parameter \$data with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/models/AnneeAcademique.php
+
+		-
+			message: '#^Cannot call method fetchAll\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/models/Echeance.php
+
+		-
+			message: '#^Method App\\Models\\Echeance\:\:find\(\) should return array\<string, mixed\>\|null but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: app/models/Echeance.php
+
+		-
+			message: '#^Binary operation "\." between ''%%'' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: app/models/Etudiant.php
+
+		-
+			message: '#^Cannot call method fetchAll\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/models/Etudiant.php
+
+		-
+			message: '#^Method App\\Models\\Etudiant\:\:find\(\) should return array\<string, mixed\>\|null but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: app/models/Etudiant.php
+
+		-
+			message: '#^Cannot call method fetchAll\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/models/Formation.php
+
+		-
+			message: '#^Method App\\Models\\Formation\:\:create\(\) has parameter \$data with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/models/Formation.php
+
+		-
+			message: '#^Method App\\Models\\Formation\:\:find\(\) should return array\<string, mixed\>\|null but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: app/models/Formation.php
+
+		-
+			message: '#^Method App\\Models\\Formation\:\:update\(\) has parameter \$data with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/models/Formation.php
+
+		-
+			message: '#^Binary operation "\." between ''%%'' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: app/models/Inscription.php
+
+		-
+			message: '#^Cannot call method fetchAll\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/models/Inscription.php
+
+		-
+			message: '#^Cannot call method fetchColumn\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/models/Inscription.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 6
+			path: app/models/Inscription.php
+
+		-
+			message: '#^Method App\\Models\\Inscription\:\:find\(\) should return array\<string, mixed\>\|null but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: app/models/Inscription.php
+
+		-
+			message: '#^Binary operation "\." between ''%%'' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 2
+			path: app/models/Paiement.php
+
+		-
+			message: '#^Cannot access offset ''annule'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/models/Paiement.php
+
+		-
+			message: '#^Cannot access offset ''nb'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/models/Paiement.php
+
+		-
+			message: '#^Cannot access offset ''valide'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/models/Paiement.php
+
+		-
+			message: '#^Cannot call method fetchColumn\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/models/Paiement.php
+
+		-
+			message: '#^Cannot cast mixed to float\.$#'
+			identifier: cast.double
+			count: 2
+			path: app/models/Paiement.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 6
+			path: app/models/Paiement.php
+
+		-
+			message: '#^Method App\\Models\\Paiement\:\:find\(\) should return array\<string, mixed\>\|null but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: app/models/Paiement.php
+
+		-
+			message: '#^Cannot call method fetchAll\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/models/Parametre.php
+
+		-
+			message: '#^Cannot call method fetchAll\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/models/Utilisateur.php
+
+		-
+			message: '#^Cannot call method fetchColumn\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/models/Utilisateur.php
+
+		-
+			message: '#^Method App\\Models\\Utilisateur\:\:create\(\) has parameter \$data with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/models/Utilisateur.php
+
+		-
+			message: '#^Method App\\Models\\Utilisateur\:\:find\(\) should return array\<string, mixed\>\|null but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: app/models/Utilisateur.php
+
+		-
+			message: '#^Method App\\Models\\Utilisateur\:\:update\(\) has parameter \$data with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/models/Utilisateur.php
+
+		-
+			message: '#^Binary operation "\." between ''%%'' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: app/services/AuditService.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 1
+			path: app/services/AuditService.php
+
+		-
+			message: '#^Cannot access offset ''mysqldump'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/BackupService.php
+
+		-
+			message: '#^Cannot access offset ''retention'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/BackupService.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 1
+			path: app/services/BackupService.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 1
+			path: app/services/BackupService.php
+
+		-
+			message: '#^Cannot call method fetchAll\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/services/CalculFinancierService.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 5
+			path: app/services/CalculFinancierService.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 1
+			path: app/services/CalculFinancierService.php
+
+		-
+			message: '#^Cannot access offset ''inscription_id'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/EcheanceService.php
+
+		-
+			message: '#^Cannot access offset ''montant_attendu'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/EcheanceService.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 1
+			path: app/services/EcheanceService.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 2
+			path: app/services/EcheanceService.php
+
+		-
+			message: '#^Offset ''date_echeance'' on array\{libelle\?\: string, montant\: float\|string, date_echeance\: string\} on left side of \?\? always exists and is not nullable\.$#'
+			identifier: nullCoalesce.offset
+			count: 1
+			path: app/services/EcheanceService.php
+
+		-
+			message: '#^Offset ''montant'' on array\{libelle\?\: string, montant\: float\|string, date_echeance\: string\} on left side of \?\? always exists and is not nullable\.$#'
+			identifier: nullCoalesce.offset
+			count: 1
+			path: app/services/EcheanceService.php
+
+		-
+			message: '#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\.$#'
+			identifier: foreach.nonIterable
+			count: 6
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Binary operation "\." between ''Généré le '' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Binary operation "\." between ''rapport\-'' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 2
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Binary operation "\." between non\-falsy\-string and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Cannot access offset ''cle'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Cannot access offset ''colonnes'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Cannot access offset ''libelle'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 3
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Cannot access offset ''lignes'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Cannot access offset ''nom'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Cannot access offset ''numero_recu'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Cannot access offset ''titre'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Cannot access offset ''totaux'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Cannot access offset ''type'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 3
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Cannot access offset ''valeur'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Cannot access offset mixed on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Cannot cast mixed to float\.$#'
+			identifier: cast.double
+			count: 1
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 13
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Parameter \#1 \$key of function array_key_exists expects int\|string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Parameter \#1 \$value of function count expects array\|Countable, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Parameter \#2 \$array of function array_key_exists expects array, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Possibly invalid array key type mixed\.$#'
+			identifier: offsetAccess.invalidOffset
+			count: 1
+			path: app/services/ExportService.php
+
+		-
+			message: '#^Cannot access offset ''statut'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: app/services/InscriptionService.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 11
+			path: app/services/InscriptionService.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 3
+			path: app/services/InscriptionService.php
+
+		-
+			message: '#^Cannot call method fetchAll\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/services/MatriculeService.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 1
+			path: app/services/MatriculeService.php
+
+		-
+			message: '#^Method App\\Services\\MatriculeService\:\:compteurs\(\) should return array\<int, int\> but returns array\<string, int\>\.$#'
+			identifier: return.type
+			count: 1
+			path: app/services/MatriculeService.php
+
+		-
+			message: '#^Cannot access offset ''inscription_id'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/PaiementService.php
+
+		-
+			message: '#^Cannot access offset ''mode_paiement'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/PaiementService.php
+
+		-
+			message: '#^Cannot access offset ''montant'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/PaiementService.php
+
+		-
+			message: '#^Cannot access offset ''montant_total'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/PaiementService.php
+
+		-
+			message: '#^Cannot access offset ''statut'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: app/services/PaiementService.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 2
+			path: app/services/PaiementService.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 6
+			path: app/services/PaiementService.php
+
+		-
+			message: '#^Comparison operation "\<\=" between int\<1, max\> and 0 is always false\.$#'
+			identifier: smallerOrEqual.alwaysFalse
+			count: 1
+			path: app/services/PaiementService.php
+
+		-
+			message: '#^Parameter \#2 \$timestamp of function date expects int\|null, int\|false given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/services/PaiementService.php
+
+		-
+			message: '#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\.$#'
+			identifier: foreach.nonIterable
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Binary operation "\." between ''Année \: '' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Binary operation "\." between ''Formation \: '' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Binary operation "\." between mixed and '' '' results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 3
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Binary operation "\." between non\-falsy\-string and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 3
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Cannot access offset ''date_echeance'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Cannot access offset ''en_retard'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Cannot access offset ''libelle'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Cannot access offset ''montant_attendu'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Cannot access offset ''montant_regle'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Cannot access offset ''reste'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Cannot access offset ''statut_echeance'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Cannot cast mixed to float\.$#'
+			identifier: cast.double
+			count: 10
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 29
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 24
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Method App\\Services\\RapportService\:\:base\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Method App\\Services\\RapportService\:\:general\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Method App\\Services\\RapportService\:\:individuel\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Method App\\Services\\RapportService\:\:inscriptionsParStatut\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Method App\\Services\\RapportService\:\:paiements\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Method App\\Services\\RapportService\:\:recettes\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Method App\\Services\\RapportService\:\:retards\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Method App\\Services\\RapportService\:\:synthese\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Offset ''inscriptions'' does not exist on array\{situations\: array\<int, array\<string, mixed\>\>, totaux\: array\<string, float\|int\>\}\.$#'
+			identifier: offsetAccess.notFound
+			count: 3
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Parameter \#1 \$debut of static method App\\Models\\Paiement\:\:validesPourPeriode\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Parameter \#1 \$mode of function mode_paiement_label expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Parameter \#1 \$statut of static method App\\Services\\CalculFinancierService\:\:libelleStatut\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 3
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Parameter \#2 \$dateDebut of static method App\\Models\\Echeance\:\:enRetard\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Parameter \#2 \$fin of static method App\\Models\\Paiement\:\:validesPourPeriode\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Parameter \#2 \.\.\.\$values of function sprintf expects bool\|float\|int\|string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Parameter \#3 \$dateFin of static method App\\Models\\Echeance\:\:enRetard\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Parameter \#3 \.\.\.\$values of function sprintf expects bool\|float\|int\|string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Parameter \#4 \.\.\.\$values of function sprintf expects bool\|float\|int\|string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Possibly invalid array key type mixed\.$#'
+			identifier: offsetAccess.invalidOffset
+			count: 2
+			path: app/services/RapportService.php
+
+		-
+			message: '#^Cannot call method fetchColumn\(\) on PDOStatement\|false\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/services/TableauBordService.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 4
+			path: app/services/TableauBordService.php
+
+		-
+			message: '#^Parameter \#2 \$timestamp of function date expects int\|null, int\|false given\.$#'
+			identifier: argument.type
+			count: 2
+			path: app/services/TableauBordService.php
+
+		-
+			message: '#^Possibly invalid array key type mixed\.$#'
+			identifier: offsetAccess.invalidOffset
+			count: 2
+			path: app/services/TableauBordService.php

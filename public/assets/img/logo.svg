@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Logo Centre Manager">
+  <defs>
+    <linearGradient id="cm-bleu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2aff"/>
+      <stop offset="1" stop-color="#0000cc"/>
+    </linearGradient>
+    <linearGradient id="cm-orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff8a1f"/>
+      <stop offset="1" stop-color="#ff5c00"/>
+    </linearGradient>
+    <clipPath id="cm-disque">
+      <circle cx="48" cy="48" r="46"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cm-disque)">
+    <rect width="48" height="96" fill="url(#cm-bleu)"/>
+    <rect x="48" width="48" height="96" fill="url(#cm-orange)"/>
+    <path d="M48 0c13 12 17 25 17 39 0 14-7 27-17 37-10-10-17-23-17-37C31 25 35 12 48 0z"
+          fill="#ffffff" opacity=".08"/>
+  </g>
+
+  <circle cx="48" cy="48" r="46" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="2"/>
+
+  <g fill="#ffffff">
+    <path d="M48 24 80 39 48 54 16 39z"/>
+    <path d="M34 46h28v10c0 4.2-6.3 7.2-14 7.2S34 60.2 34 56z" opacity=".92"/>
+  </g>
+  <path d="M80 39v14" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="80" cy="56" r="3.6" fill="#ffffff"/>
+</svg>

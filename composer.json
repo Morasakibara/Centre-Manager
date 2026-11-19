@@ -1,0 +1,32 @@
+{
+    "name": "centre-manager/centre-manager",
+    "description": "Centre Manager - gestion des etudiants et des finances d'un centre de formation",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-mbstring": "*",
+        "dompdf/dompdf": "^3.1",
+        "phpoffice/phpspreadsheet": "^5.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers/functions.php"
+        ]
+    },
+    "scripts": {
+        "test": "php tests/financial_rules.php",
+        "analyse": "phpstan analyse --no-progress"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.3"
+    }
+}
