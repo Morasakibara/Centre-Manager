@@ -5,6 +5,10 @@
 /storage/backups/*
 !.gitkeep
 .agents/
+.claude/
+andrej-karpathy-skills-main/
+skills-main/
+skills-lock.json
 node_modules/
 .DS_Store
 Thumbs.db
